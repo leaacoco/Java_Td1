@@ -1,0 +1,33 @@
+EXO 1
+2) sysout+Ctrl space nous permet d'obtenir le méthode d'affichage à savoir
+system.out.println
+3)Nous permet d'obtenir la méthode toString.
+5)Ils nous affichent les Getters et les Setters.
+6) On a accès à toutes les actions liées à l'éxécution.
+
+
+EXO 2
+1)Cela marche car p est un Point créé dans la classe Point et a donc a donc accès à ses
+champs.
+2)Erreur de compilation. En effet, la méthode n'a plus accès aux variables x
+et y car on se trouve dans la classe TestPoint à présent or x et y sont des attributs
+private de la classe Point.
+3)On peut arranger cela ou en changeant l'accès des attributs x et y en private ou
+en mettant un accessor, à savoir des Getter dans la classe Point qui vont renvoyer
+chacun x et y.
+
+EXO 3
+1) Ce code affiche True car p1 et p2 ont le meme espace mémoire.
+Le deuxieme affichage est False car p1 et p3 sont deux instanciations
+diiférentes qui ont donc deux espaces memoires différentes.
+
+2) cf code
+
+3)IndexOf est une méthode qui affiche l'indice de l'élément en question.
+Le problème est qu'on demande l'affichage de l'indice de l'élément p2 et p3
+qui n'appartiennent pas à la liste à laquelle on fait appel.
+
+EXO 4
+ cf code
+
+EXO 5
