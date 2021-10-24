@@ -25,10 +25,10 @@ public class Anneaux extends Circle {
         return super.contains(p);
 
      }
-     public boolean contains(Point p,Anneaux... anneaux){
-         for (Anneaux anneauxIt:
-              anneaux) {
-             if(anneauxIt.contains(p)){
+     public boolean contains(Point p,Anneaux... anneaux) {
+         for (Anneaux anneauxIt :
+                 anneaux) {
+             if (anneauxIt.contains(p)) {
                  return true;
              }
 
