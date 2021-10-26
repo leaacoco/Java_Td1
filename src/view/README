@@ -1,0 +1,17 @@
+EXO 1
+1)JFrame crée une fenetre avec un menu et JPanel crée un conteneur.
+  Graphics est la classe qui permet de creer de dessin
+  Graphics2D est la classe fille de Graphics plus sophistiquéé et ajoutent des details a ton dessin.
+5)Cette méthode est appelée lors du frame.repaint().
+6)Java.awt utilise les bibliotheques graphiques du OS pour les affichages. Donc il se peut que lorsqu'un code est écrit en
+  awt, l'affichage peut varier d'un OS à un autre.
+  Java swing va utiliser les librairies graphiques de la JWM. La différence est qu'il y aura pas de différence d'un OS à un autre.
+
+EXO 2
+
+2)Je ne peux pas faire de dessin mais j'ai ici deux grands carrées Modele et Vue. Dans le carré Modele, nous avons cercle,
+polyLine et anneau et dans Vue, nous avons vueCercle, VueAnneau, vue PolyLine et Display et eux vont implémenter l'interface.
+
+
+
+   TOUTES LES AUTRES QUESTIONS SONT SUR CODE
